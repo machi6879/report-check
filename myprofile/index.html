@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Kazuki Asahinaのプロフィール紹介">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+  <title>MyProfile</title>  
+</head>
+<body>
+  <header>
+    <!-- ナビゲーション -->
+    <nav>
+      <div>
+        <a href="index.html" id="title">MyProfile</a>
+      </div>
+    
+      <div id="about-works">      
+      <a href="index.html#about">About</a>
+      <a href="index.html#works">Works</a>
+      </div>
+    </nav>  
+  </header>
+
+  <main>
+    <article>
+      <!-- メインビジュアル -->
+      <div id="main-visual">
+        <img src="main.png" alt="カメラの画像">
+      </div>
+
+      <!-- About -->      
+        <h1 class="h1">About</h1>
+        <section id="about-section">        
+          <img src="about.png" alt="プロフィール画像" id="profile-img">               
+          
+          <div id="about">        
+            <p id="name">Kazuki Asahina</p>
+            <ul>
+              <li>25歳　長野県佐久間市出身</li>
+              <li>ソフトウェア業界でマーケティングに従事</li>
+              <li>趣味はカメラ、愛機はCanon</li>
+              <li>自然を撮影するのが好きで、海や山によく行く</li>
+            </ul>
+          </div>          
+      </section>
+
+      <!-- Works -->
+      <h1 class="h1">Works</h1>
+      <section id="works-section">        
+          <div class="works">
+            <img src="works1.png" alt="新潟の写真">
+            <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+          </div>
+          <div class="works">
+            <img src="works2.png" alt="長野の写真">
+            <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+          </div>
+          <div class="works">
+            <img src="works3.png" alt="京都の写真">
+            <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+          </div>
+      </section>      
+    </article>
+  </main>
+
+  <footer>
+    <span>&copy;MyProfile.All rights reserved.</span>
+  </footer>
+</body>
+</html>
